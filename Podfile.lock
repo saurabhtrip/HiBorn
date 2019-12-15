@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (4.9.0)
+  - ImageSlideshow (1.8.1):
+    - ImageSlideshow/Core (= 1.8.1)
+  - ImageSlideshow/Core (1.8.1)
+  - ImageSlideshow/SDWebImage (1.8.1):
+    - ImageSlideshow/Core
+    - SDWebImage (>= 3.7)
+  - IQKeyboardManagerSwift (6.5.2)
+  - MBProgressHUD (1.0.0)
+  - SDWebImage (4.4.7):
+    - SDWebImage/Core (= 4.4.7)
+  - SDWebImage/Core (4.4.7)
+  - SkyFloatingLabelTextField (3.7.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - ImageSlideshow
+  - ImageSlideshow/SDWebImage
+  - IQKeyboardManagerSwift
+  - MBProgressHUD (~> 1.0.0)
+  - SDWebImage (~> 4.0)
+  - SkyFloatingLabelTextField (~> 3.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ImageSlideshow
+    - IQKeyboardManagerSwift
+    - MBProgressHUD
+    - SDWebImage
+    - SkyFloatingLabelTextField
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  ImageSlideshow: 634865d7d4e96f21e3830a31b51bde768cc94cea
+  IQKeyboardManagerSwift: c75366f1f19590e8caeae45fcd5815c9289d6099
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
+  SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
+
+PODFILE CHECKSUM: bb8add1f431e30ea8d10723bf8c707eef311ea7a
+
+COCOAPODS: 1.8.4

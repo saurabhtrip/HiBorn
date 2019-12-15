@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		283B2B9AEA7423DD580188BA /* Pods_HiBorn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398EFF0F25D09793C4ADA90D /* Pods_HiBorn.framework */; };
+		7B0613F2237A816A000BC8B0 /* buyProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0613F1237A816A000BC8B0 /* buyProduct.swift */; };
+		7B0EEA412373F6E400DB909B /* PopOverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0EEA3F2373F6E400DB909B /* PopOverViewController.xib */; };
+		7B0EEA422373F6E400DB909B /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0EEA402373F6E400DB909B /* PopOverViewController.swift */; };
+		7B0EEA452373F89B00DB909B /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0EEA432373F89B00DB909B /* ListTableViewCell.swift */; };
+		7B0EEA462373F89B00DB909B /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0EEA442373F89B00DB909B /* ListTableViewCell.xib */; };
+		7B0FFCAE2372C53D00DC53CA /* ProductListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0FFCAD2372C53D00DC53CA /* ProductListCollectionViewCell.swift */; };
+		7B114BC323791E6E0082AF0A /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B114BC223791E6E0082AF0A /* CartViewController.swift */; };
+		7B114BC523791E8B0082AF0A /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B114BC423791E8B0082AF0A /* CartTableViewCell.swift */; };
+		7B1C68F92383F2A7005BD6C0 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C68F82383F2A7005BD6C0 /* DataModel.swift */; };
+		7B1C68FB23841845005BD6C0 /* NewArrivalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C68FA23841845005BD6C0 /* NewArrivalViewController.swift */; };
+		7B1C68FD23841AB1005BD6C0 /* NewArrivalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C68FC23841AB1005BD6C0 /* NewArrivalCollectionViewCell.swift */; };
+		7B313F7323717104008C9231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B313F7223717104008C9231 /* AppDelegate.swift */; };
+		7B313F7523717104008C9231 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B313F7423717104008C9231 /* SceneDelegate.swift */; };
+		7B313F7A23717104008C9231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B313F7823717104008C9231 /* Main.storyboard */; };
+		7B313F7D23717104008C9231 /* HiBorn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B313F7B23717104008C9231 /* HiBorn.xcdatamodeld */; };
+		7B313F7F2371712F008C9231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B313F7E2371712F008C9231 /* Assets.xcassets */; };
+		7B313F822371712F008C9231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B313F802371712F008C9231 /* LaunchScreen.storyboard */; };
+		7B313F8D23717130008C9231 /* HiBornTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B313F8C23717130008C9231 /* HiBornTests.swift */; };
+		7B313F982371767C008C9231 /* Layouyt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B313F972371767C008C9231 /* Layouyt.swift */; };
+		7B6C6068237D61C300ABE224 /* buyProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C6067237D61C300ABE224 /* buyProductCollectionViewCell.swift */; };
+		7B8B7AFE23752B0E001FDA7C /* SSBadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8B7AFD23752B0E001FDA7C /* SSBadgeButton.swift */; };
+		7B8B7B0023752BA0001FDA7C /* subCatagoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8B7AFF23752BA0001FDA7C /* subCatagoryCollectionViewCell.swift */; };
+		7B8B7B0223752BC4001FDA7C /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8B7B0123752BC4001FDA7C /* ProductDetailsViewController.swift */; };
+		7B8B7B04237536E9001FDA7C /* productDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8B7B03237536E9001FDA7C /* productDetailsCollectionViewCell.swift */; };
+		7BABB81223718C3100ED736A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BABB81123718C3100ED736A /* LoginViewController.swift */; };
+		7BABB81A237198D600ED736A /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BABB819237198D600ED736A /* APIRouter.swift */; };
+		7BABB81C237198E900ED736A /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BABB81B237198E900ED736A /* APIManager.swift */; };
+		7BABB81E2371A5FD00ED736A /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BABB81D2371A5FD00ED736A /* ProductListViewController.swift */; };
+		9D5B5A4647ABD444F503B13F /* Pods_HiBornTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A916C012B1BCBA9D0BFE7116 /* Pods_HiBornTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B313F8923717130008C9231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B313F6723717104008C9231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B313F6E23717104008C9231;
+			remoteInfo = HiBorn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		398EFF0F25D09793C4ADA90D /* Pods_HiBorn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiBorn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F050F4804AF2BB8C125A1A7 /* Pods-HiBorn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiBorn.release.xcconfig"; path = "Target Support Files/Pods-HiBorn/Pods-HiBorn.release.xcconfig"; sourceTree = "<group>"; };
+		7B0613F1237A816A000BC8B0 /* buyProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buyProduct.swift; sourceTree = "<group>"; };
+		7B0EEA3F2373F6E400DB909B /* PopOverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopOverViewController.xib; sourceTree = "<group>"; };
+		7B0EEA402373F6E400DB909B /* PopOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverViewController.swift; sourceTree = "<group>"; };
+		7B0EEA432373F89B00DB909B /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		7B0EEA442373F89B00DB909B /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		7B0FFCAD2372C53D00DC53CA /* ProductListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListCollectionViewCell.swift; sourceTree = "<group>"; };
+		7B114BC223791E6E0082AF0A /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		7B114BC423791E8B0082AF0A /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		7B1C68F82383F2A7005BD6C0 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		7B1C68FA23841845005BD6C0 /* NewArrivalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArrivalViewController.swift; sourceTree = "<group>"; };
+		7B1C68FC23841AB1005BD6C0 /* NewArrivalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArrivalCollectionViewCell.swift; sourceTree = "<group>"; };
+		7B313F6F23717104008C9231 /* HiBorn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiBorn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B313F7223717104008C9231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B313F7423717104008C9231 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7B313F7923717104008C9231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B313F7C23717104008C9231 /* HiBorn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HiBorn.xcdatamodel; sourceTree = "<group>"; };
+		7B313F7E2371712F008C9231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B313F812371712F008C9231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B313F832371712F008C9231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B313F882371712F008C9231 /* HiBornTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiBornTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B313F8C23717130008C9231 /* HiBornTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiBornTests.swift; sourceTree = "<group>"; };
+		7B313F8E23717130008C9231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B313F972371767C008C9231 /* Layouyt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layouyt.swift; sourceTree = "<group>"; };
+		7B6C6067237D61C300ABE224 /* buyProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buyProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		7B8B7AFD23752B0E001FDA7C /* SSBadgeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSBadgeButton.swift; sourceTree = "<group>"; };
+		7B8B7AFF23752BA0001FDA7C /* subCatagoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subCatagoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		7B8B7B0123752BC4001FDA7C /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		7B8B7B03237536E9001FDA7C /* productDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		7BABB81123718C3100ED736A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7BABB819237198D600ED736A /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		7BABB81B237198E900ED736A /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		7BABB81D2371A5FD00ED736A /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		9F41E9C7A5289790E89BDCC0 /* Pods-HiBorn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiBorn.debug.xcconfig"; path = "Target Support Files/Pods-HiBorn/Pods-HiBorn.debug.xcconfig"; sourceTree = "<group>"; };
+		A21E997051A5A0AE92A7E13B /* Pods-HiBornTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiBornTests.debug.xcconfig"; path = "Target Support Files/Pods-HiBornTests/Pods-HiBornTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A916C012B1BCBA9D0BFE7116 /* Pods_HiBornTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiBornTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEC2488AFE06D74328BC69D /* Pods-HiBornTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiBornTests.release.xcconfig"; path = "Target Support Files/Pods-HiBornTests/Pods-HiBornTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B313F6C23717104008C9231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283B2B9AEA7423DD580188BA /* Pods_HiBorn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B313F852371712F008C9231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5B5A4647ABD444F503B13F /* Pods_HiBornTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B22CDE3B7D22C57990CF40D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F41E9C7A5289790E89BDCC0 /* Pods-HiBorn.debug.xcconfig */,
+				6F050F4804AF2BB8C125A1A7 /* Pods-HiBorn.release.xcconfig */,
+				A21E997051A5A0AE92A7E13B /* Pods-HiBornTests.debug.xcconfig */,
+				ACEC2488AFE06D74328BC69D /* Pods-HiBornTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7B0613F0237A811E000BC8B0 /* cart */ = {
+			isa = PBXGroup;
+			children = (
+				7B114BC223791E6E0082AF0A /* CartViewController.swift */,
+				7B114BC423791E8B0082AF0A /* CartTableViewCell.swift */,
+			);
+			path = cart;
+			sourceTree = "<group>";
+		};
+		7B114BC123791E1D0082AF0A /* ProductDetailsafter click */ = {
+			isa = PBXGroup;
+			children = (
+				7B8B7AFF23752BA0001FDA7C /* subCatagoryCollectionViewCell.swift */,
+				7B8B7B0123752BC4001FDA7C /* ProductDetailsViewController.swift */,
+				7B8B7B03237536E9001FDA7C /* productDetailsCollectionViewCell.swift */,
+			);
+			path = "ProductDetailsafter click";
+			sourceTree = "<group>";
+		};
+		7B313F6623717104008C9231 = {
+			isa = PBXGroup;
+			children = (
+				7B1C68FC23841AB1005BD6C0 /* NewArrivalCollectionViewCell.swift */,
+				7B1C68FA23841845005BD6C0 /* NewArrivalViewController.swift */,
+				7B1C68F82383F2A7005BD6C0 /* DataModel.swift */,
+				7B562409237EBE0B004384ED /* buy */,
+				7B0613F0237A811E000BC8B0 /* cart */,
+				7B114BC123791E1D0082AF0A /* ProductDetailsafter click */,
+				7B8B7AFC23752AA8001FDA7C /* productDetails */,
+				7BABB818237198AB00ED736A /* API */,
+				7BABB8162371986900ED736A /* ThirdParty */,
+				7BABB8152371985600ED736A /* login */,
+				7B313F7123717104008C9231 /* HiBorn */,
+				7B313F8B23717130008C9231 /* HiBornTests */,
+				7B313F7023717104008C9231 /* Products */,
+				6B22CDE3B7D22C57990CF40D /* Pods */,
+				CBFB6AD1A3F2CC57D217BB70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B313F7023717104008C9231 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B313F6F23717104008C9231 /* HiBorn.app */,
+				7B313F882371712F008C9231 /* HiBornTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B313F7123717104008C9231 /* HiBorn */ = {
+			isa = PBXGroup;
+			children = (
+				7B313F7223717104008C9231 /* AppDelegate.swift */,
+				7B313F7423717104008C9231 /* SceneDelegate.swift */,
+				7B313F7823717104008C9231 /* Main.storyboard */,
+				7B313F7E2371712F008C9231 /* Assets.xcassets */,
+				7B313F802371712F008C9231 /* LaunchScreen.storyboard */,
+				7B313F832371712F008C9231 /* Info.plist */,
+				7B313F7B23717104008C9231 /* HiBorn.xcdatamodeld */,
+			);
+			path = HiBorn;
+			sourceTree = "<group>";
+		};
+		7B313F8B23717130008C9231 /* HiBornTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B313F8C23717130008C9231 /* HiBornTests.swift */,
+				7B313F8E23717130008C9231 /* Info.plist */,
+			);
+			path = HiBornTests;
+			sourceTree = "<group>";
+		};
+		7B562409237EBE0B004384ED /* buy */ = {
+			isa = PBXGroup;
+			children = (
+				7B0613F1237A816A000BC8B0 /* buyProduct.swift */,
+				7B6C6067237D61C300ABE224 /* buyProductCollectionViewCell.swift */,
+			);
+			path = buy;
+			sourceTree = "<group>";
+		};
+		7B8B7AFC23752AA8001FDA7C /* productDetails */ = {
+			isa = PBXGroup;
+			children = (
+				7B8B7AFD23752B0E001FDA7C /* SSBadgeButton.swift */,
+				7B0FFCAD2372C53D00DC53CA /* ProductListCollectionViewCell.swift */,
+				7BABB81D2371A5FD00ED736A /* ProductListViewController.swift */,
+			);
+			path = productDetails;
+			sourceTree = "<group>";
+		};
+		7BABB8152371985600ED736A /* login */ = {
+			isa = PBXGroup;
+			children = (
+				7BABB81123718C3100ED736A /* LoginViewController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		7BABB8162371986900ED736A /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				7B0EEA432373F89B00DB909B /* ListTableViewCell.swift */,
+				7B0EEA442373F89B00DB909B /* ListTableViewCell.xib */,
+				7B0EEA402373F6E400DB909B /* PopOverViewController.swift */,
+				7B0EEA3F2373F6E400DB909B /* PopOverViewController.xib */,
+				7B313F972371767C008C9231 /* Layouyt.swift */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		7BABB818237198AB00ED736A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7BABB819237198D600ED736A /* APIRouter.swift */,
+				7BABB81B237198E900ED736A /* APIManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		CBFB6AD1A3F2CC57D217BB70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				398EFF0F25D09793C4ADA90D /* Pods_HiBorn.framework */,
+				A916C012B1BCBA9D0BFE7116 /* Pods_HiBornTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B313F6E23717104008C9231 /* HiBorn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B313F9123717130008C9231 /* Build configuration list for PBXNativeTarget "HiBorn" */;
+			buildPhases = (
+				E3C5FDA904A83EACBFD2E720 /* [CP] Check Pods Manifest.lock */,
+				7B313F6B23717104008C9231 /* Sources */,
+				7B313F6C23717104008C9231 /* Frameworks */,
+				7B313F6D23717104008C9231 /* Resources */,
+				94FA0226317DFD6D03A2E603 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiBorn;
+			productName = HiBorn;
+			productReference = 7B313F6F23717104008C9231 /* HiBorn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B313F872371712F008C9231 /* HiBornTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B313F9423717130008C9231 /* Build configuration list for PBXNativeTarget "HiBornTests" */;
+			buildPhases = (
+				5E935D79B8B3F98E5B229E29 /* [CP] Check Pods Manifest.lock */,
+				7B313F842371712F008C9231 /* Sources */,
+				7B313F852371712F008C9231 /* Frameworks */,
+				7B313F862371712F008C9231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B313F8A23717130008C9231 /* PBXTargetDependency */,
+			);
+			name = HiBornTests;
+			productName = HiBornTests;
+			productReference = 7B313F882371712F008C9231 /* HiBornTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B313F6723717104008C9231 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = localadmin;
+				TargetAttributes = {
+					7B313F6E23717104008C9231 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					7B313F872371712F008C9231 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 7B313F6E23717104008C9231;
+					};
+				};
+			};
+			buildConfigurationList = 7B313F6A23717104008C9231 /* Build configuration list for PBXProject "HiBorn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B313F6623717104008C9231;
+			productRefGroup = 7B313F7023717104008C9231 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B313F6E23717104008C9231 /* HiBorn */,
+				7B313F872371712F008C9231 /* HiBornTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B313F6D23717104008C9231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0EEA412373F6E400DB909B /* PopOverViewController.xib in Resources */,
+				7B313F822371712F008C9231 /* LaunchScreen.storyboard in Resources */,
+				7B0EEA462373F89B00DB909B /* ListTableViewCell.xib in Resources */,
+				7B313F7F2371712F008C9231 /* Assets.xcassets in Resources */,
+				7B313F7A23717104008C9231 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B313F862371712F008C9231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E935D79B8B3F98E5B229E29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiBornTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94FA0226317DFD6D03A2E603 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiBorn/Pods-HiBorn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiBorn/Pods-HiBorn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HiBorn/Pods-HiBorn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C5FDA904A83EACBFD2E720 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiBorn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B313F6B23717104008C9231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BABB81223718C3100ED736A /* LoginViewController.swift in Sources */,
+				7B0FFCAE2372C53D00DC53CA /* ProductListCollectionViewCell.swift in Sources */,
+				7B0EEA422373F6E400DB909B /* PopOverViewController.swift in Sources */,
+				7BABB81A237198D600ED736A /* APIRouter.swift in Sources */,
+				7B313F982371767C008C9231 /* Layouyt.swift in Sources */,
+				7B1C68F92383F2A7005BD6C0 /* DataModel.swift in Sources */,
+				7B313F7D23717104008C9231 /* HiBorn.xcdatamodeld in Sources */,
+				7B1C68FB23841845005BD6C0 /* NewArrivalViewController.swift in Sources */,
+				7B8B7B0023752BA0001FDA7C /* subCatagoryCollectionViewCell.swift in Sources */,
+				7B8B7B0223752BC4001FDA7C /* ProductDetailsViewController.swift in Sources */,
+				7B114BC523791E8B0082AF0A /* CartTableViewCell.swift in Sources */,
+				7B1C68FD23841AB1005BD6C0 /* NewArrivalCollectionViewCell.swift in Sources */,
+				7B313F7323717104008C9231 /* AppDelegate.swift in Sources */,
+				7B313F7523717104008C9231 /* SceneDelegate.swift in Sources */,
+				7B0EEA452373F89B00DB909B /* ListTableViewCell.swift in Sources */,
+				7BABB81E2371A5FD00ED736A /* ProductListViewController.swift in Sources */,
+				7B114BC323791E6E0082AF0A /* CartViewController.swift in Sources */,
+				7B8B7B04237536E9001FDA7C /* productDetailsCollectionViewCell.swift in Sources */,
+				7B0613F2237A816A000BC8B0 /* buyProduct.swift in Sources */,
+				7BABB81C237198E900ED736A /* APIManager.swift in Sources */,
+				7B8B7AFE23752B0E001FDA7C /* SSBadgeButton.swift in Sources */,
+				7B6C6068237D61C300ABE224 /* buyProductCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B313F842371712F008C9231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B313F8D23717130008C9231 /* HiBornTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B313F8A23717130008C9231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B313F6E23717104008C9231 /* HiBorn */;
+			targetProxy = 7B313F8923717130008C9231 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B313F7823717104008C9231 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B313F7923717104008C9231 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B313F802371712F008C9231 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B313F812371712F008C9231 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B313F8F23717130008C9231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B313F9023717130008C9231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B313F9223717130008C9231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F41E9C7A5289790E89BDCC0 /* Pods-HiBorn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L88X49DUKT;
+				INFOPLIST_FILE = HiBorn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = subtlelabs.HiBorn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B313F9323717130008C9231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F050F4804AF2BB8C125A1A7 /* Pods-HiBorn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L88X49DUKT;
+				INFOPLIST_FILE = HiBorn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = subtlelabs.HiBorn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B313F9523717130008C9231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A21E997051A5A0AE92A7E13B /* Pods-HiBornTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HiBornTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = subtlelabs.HiBornTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiBorn.app/HiBorn";
+			};
+			name = Debug;
+		};
+		7B313F9623717130008C9231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACEC2488AFE06D74328BC69D /* Pods-HiBornTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HiBornTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = subtlelabs.HiBornTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiBorn.app/HiBorn";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B313F6A23717104008C9231 /* Build configuration list for PBXProject "HiBorn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B313F8F23717130008C9231 /* Debug */,
+				7B313F9023717130008C9231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B313F9123717130008C9231 /* Build configuration list for PBXNativeTarget "HiBorn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B313F9223717130008C9231 /* Debug */,
+				7B313F9323717130008C9231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B313F9423717130008C9231 /* Build configuration list for PBXNativeTarget "HiBornTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B313F9523717130008C9231 /* Debug */,
+				7B313F9623717130008C9231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7B313F7B23717104008C9231 /* HiBorn.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7B313F7C23717104008C9231 /* HiBorn.xcdatamodel */,
+			);
+			currentVersion = 7B313F7C23717104008C9231 /* HiBorn.xcdatamodel */;
+			path = HiBorn.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7B313F6723717104008C9231 /* Project object */;
+}
